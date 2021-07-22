@@ -21,8 +21,8 @@ app.get('/pay/:amt', (req, res) => {
           "payment_method": "paypal"
       },
       "redirect_urls": {
-          "return_url": "http://10.0.2.2:4444/success",
-          "cancel_url": "http://10.0.2.2:4444/cancel"
+          "return_url": "https://protected-shore-58344.herokuapp.com/success",
+          "cancel_url": "https://protected-shore-58344.herokuapp.com/cancel"
       },
       "transactions": [{
           "item_list": {
